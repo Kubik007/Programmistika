@@ -11,6 +11,5 @@ def sum_range(start, end):
     for i in range (start, end+1):
         k += 1
     return k
-
 print(sum_range(start, end))
 

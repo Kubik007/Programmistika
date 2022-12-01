@@ -7,5 +7,4 @@ def pallid (string):
         print("Переданное слово является палиндромом")
     else:
         print("Сорян братат это не палиндром")
-
 print(pallid(string))

@@ -7,5 +7,4 @@ def func(stroka: str) -> str:
     a = stroka.split("-")
     b = sorted(a)
     return b
-
 print(func(stroka))

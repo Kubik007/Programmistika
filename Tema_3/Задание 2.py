@@ -3,12 +3,12 @@
 #  потому что 9**2 — это 81, а 1**2 — это 1. Примечание.
 #  Функция принимает целое число и возвращает целое число
 def count():
-    a = int(input())
-    while a > 0:
-        b = (a % 10)**2
-        a = a // 10
-        return b
+    b = ""
+    a = str(input())
+    for i in a:
+        x = int(i**2)
+        b += x
+    print(b)
 
 
-m = count()
-print(m)
+count()

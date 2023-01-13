@@ -6,8 +6,8 @@ def count():
     b = ""
     a = str(input())
     for i in a:
-        x = int(i**2)
-        b += x
+        x = int(i)**2
+        b += str(x)
     print(b)
 
 
